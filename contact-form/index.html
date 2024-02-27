@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Us</title>
+</head>
+
+<body>
+    <form id="contactUs" onsubmit="getForm(); return false;" >
+        <label>Name</label>
+        <input placeholder="john Doe" name="name" required value="john Doe" />
+        <br />
+
+        <label>Email</label>
+        <input type="email" placeholder="john@doe.com" name="email" required />
+        <br />
+
+
+        <label>Message</label>
+        <textarea rows="5" placeholder="your message" name="message"></textarea>
+        <br />
+
+
+        <label>Photo</label>
+        <input type="file" name="picture">
+
+        <br />
+        <button type="submit" id="formBtn">Submit Me</button>
+
+    </form>
+
+    <script src="index1.js"></script>
+</body>
+
+</html>
